@@ -1,0 +1,11 @@
+tasks:
+    all:
+        dependencies:
+            - task1
+            - task2
+    task1:
+        commands:
+            - echo "Running task1"
+    task2:
+        commands:
+            - echo "Running task2"
