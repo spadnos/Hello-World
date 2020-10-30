@@ -9,3 +9,7 @@ tasks:
     task2:
         commands:
             - echo "Running task2"
+
+    failing_task:
+        commands:
+            - false
